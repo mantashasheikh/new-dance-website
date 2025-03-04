@@ -1,0 +1,20 @@
+#headpart{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+}
+#headpart nav ul{
+    display:flex;
+    gap:50px;
+}
+#headpart .call{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+}
+#headpart img{
+    width:150px;
+}
