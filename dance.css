@@ -1,5 +1,5 @@
 *{
-    marjin:0px;
+    margin:0px;
     padding:0px;
     box-sizing:border-box;
 
@@ -13,7 +13,8 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(187, 162, 187, 0.274)
+    background-color:rgba(187, 162, 187, 0.274);
+    position:relative;
 
 }
 #headpart nav ul{
@@ -59,7 +60,7 @@
     align-items: center;
 }
 
-/* hesd code ends here */
+/* head code ends here */
 #first-page{
     width:100%;
     height:100vh;
@@ -67,8 +68,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(hip-hop-dancer-vector-20999421.jpg);
-    background-size:contain;
-    background-position:0% ;
+    background: linear-gradient(to right,rgb(241, 171, 171),rgb(255, 192, 203),rgb(241, 203, 130),rgb(247, 247, 150));
     
 }
+main h1{
+    font-size: 80px;
+}
+
