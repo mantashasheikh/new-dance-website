@@ -71,7 +71,17 @@
     background: linear-gradient(to right,rgb(241, 171, 171),rgb(255, 192, 203),rgb(241, 203, 130),rgb(247, 247, 150));
     
 }
-main h1{
-    font-size: 80px;
+#container{
+    
+    gap:10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+#container div{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+
+
 }
 
