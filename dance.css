@@ -26,7 +26,12 @@
 #headpart nav ul li a{
     text-decoration: none;
     color: rgb(219, 51, 166);
-    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+#headpart nav ul li a:hover{
+    color: rgb(221, 147, 10);
+    font-size: 25px;
 }
 
 #headpart .icon{
@@ -50,6 +55,11 @@
     background-color: rgb(237, 101, 194); 
     border-radius: 20px;
 }
+#headpart .call button:hover{
+    transform: scale(1.1);
+    background-color:rgb(238, 184, 85); ;
+    overflow: hidden;
+}
 #headpart .call button i{
     display: flex;
     align-items: center;
@@ -72,16 +82,29 @@
     
 }
 #container{
-    
-    gap:10px;
-    display:flex;
-    justify-content: space-evenly;
+    height: 100vh;
+    width: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:200px
 }
-#container div{
-    height: 300px;
-    width: 300px;
-    border: 1px solid black;
+.heading-cont h1{
+    font-size: 100px;
+    font-family:cursive;
+}
+.heading-cont button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(246, 189, 83);
 
 
 }
+#container img{
+    height: 80%;
+
+}
+
 
