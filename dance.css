@@ -4,6 +4,7 @@
     box-sizing:border-box;
 
 }
+/* head part starting here */
 #headpart img{
     height: 150px;
 }
@@ -17,6 +18,8 @@
     position:relative;
 
 }
+
+/* create navigation bar */
 #headpart nav ul{
     display:flex;
     list-style: none;
@@ -33,6 +36,8 @@
     color: rgb(221, 147, 10);
     font-size: 25px;
 }
+
+/* create a button */
 
 #headpart .icon{
     display: flex;
@@ -70,7 +75,12 @@
     align-items: center;
 }
 
-/* head code ends here */
+/* head part  ends here */
+
+/* body part starting here */
+
+/* start to create a first page */
+
 #first-page{
     width:100%;
     height:100vh;
@@ -105,7 +115,7 @@
 #container img{
     height:80%;
     position: relative;
-    animation: mymove 5s infinite;
+    animation: mymove 2s ease-in infinite ;
 }
 @keyframes mymove {
     0%{top:10px;}
@@ -118,7 +128,7 @@
 
 /* first page completed */
 
-
+/* start to create a second page */
 
 #second-page{
     width:100%;
@@ -134,7 +144,7 @@
     align-items: center;
 }
 
-
+/* div one of the second page */
 .dance-image1{
     width:600px;
     height: 300px;
@@ -146,10 +156,10 @@
     gap:20px;
     background-color: whitesmoke;
     position: relative;
-    animation: mymove 1s ease-in infinite ;
+    animation: mymove1 2s ease-in infinite ;
     
 }
-@keyframes mymove{
+@keyframes mymove1{
     0%{left:0px;}
     25%{left:30px;}
     50%{left:60px;}
@@ -176,7 +186,7 @@
 .content1{
     width:250px;
     height:250px;
-    border: 1px solid black;
+   
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -196,7 +206,7 @@
     font-size: 20px;
 }
 
-
+/* div two of the second page */
 .dance-image2{
     width:600px;
     height: 300px;
@@ -208,9 +218,9 @@
     gap:20px;
     background-color: whitesmoke;
     position: relative;
-    animation:mymove 1s ease-in infinite ;
+    animation:mymove2 2s ease-in infinite ;
 }
-@keyframes mymove{
+@keyframes mymove2{
     0%{right:0px;}
     25%{right:30px;}
     50%{right:60px;}
@@ -236,7 +246,7 @@
 .content2{
     width:250px;
     height:250px;
-    border: 1px solid black;
+   
     border-radius: 30px;
     display: flex;
     flex-direction: column;
