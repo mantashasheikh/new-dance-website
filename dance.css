@@ -273,6 +273,7 @@
     height: 200vh;
     border: 1px solid black;
     padding-top:50px ;
+    background-color:rgb(219, 234, 240);
 
 }
 #container3{
@@ -315,4 +316,24 @@
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services{
+    display : flex;
+    
+}
+#join{
+    margin-left: 45%;;
+}
+
+#choreography{
+    margin-left: 50%;;
+}
+#onstage{
+    margin-left: 55%;;
+}
+.services div h2{
+    font-size: 25px;
 }
