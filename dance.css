@@ -370,10 +370,8 @@
     border: 1px solid black;
     padding-top:50px ;
     background-color:rgb(219, 234, 240);
-   
 }
 .heading-cont3{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,128 +384,82 @@
 #dance-festival{
     height:600px;
     width:100%;
-    border: 1px solid black;
     display:flex;
     justify-content: center;
     align-items: center;
     gap:20px;
 }
-.festival1{
+.festival{
     height:400px;
     width:350px; 
-    border:1px solid black;
-    display: flex;
+   display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    padding-top:10px ;
-    border-radius: 10px;
+    padding-top:20px ;
+    border-radius: 20px;
+    background-color: white;
+}
+.festival:hover{
+    box-shadow: 10px 10px 20px  rgb(219, 181, 239);
 }
 .festival-image1{
     height:250px;
     width:300px; 
-    border:1px solid black;
+   
     background: linear-gradient(to right, rgb(77, 190, 77), rgb(205, 133, 237));
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .festival-image1 img{
     height: 200;
     width:200px;
-
 }
-.festival-cont1{
-    height:100px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.festival-cont1 h4{
-    font-size: 24px;
-}
-.festival2{
-    height:400px;
-    width:350px; 
-    border:1px solid black;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    padding-top:10px ;
-    border-radius: 10px;
-}
-.festival-image2{
+.festival-image2{ 
     height:250px;
     width:300px; 
-    border:1px solid black;
+    
     background: linear-gradient(to right, rgb(235, 118, 118), rgb(89, 206, 232));
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .festival-image2 img{
     height: 160;
     width:140px;
 }
-.festival-cont2{
-    height: 100px;
-    width: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.festival-cont2 h4{
-    font-size: 24px;
-}
-.festival3{
-    height:400px;
-    width:350px; 
-    border:1px solid black;display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    padding-top:10px ;
-    border-radius: 10px;
-}
 .festival-image3{
     height:250px;
     width:300px; 
-    border:1px solid black;
+    
     background: linear-gradient(to right,rgb(77, 190, 77), rgb(205, 133, 237) );
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .festival-image3 img{
     height: 180;
     width:160px;
 }
-.festival-cont3{
-    height: 100px;
+.festival-cont{
+    height:100px;
     width: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap:10px;
 }
-.festival-cont3 h4{
-    font-size: 24px;
+.festival-cont h4{
+    font-size: 22px;
 }
+.location{
+    display: flex;
+    gap:10px;
+    color: rgb(87, 87, 87);
+}
+
