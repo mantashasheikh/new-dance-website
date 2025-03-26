@@ -306,7 +306,7 @@
 .heading-cont2{
     width:600px;
     height: 550px;
-    border: 1px solid black;
+    
     
 }
 .heading-cont2 h1{
@@ -332,7 +332,8 @@
     
 }
 #join{
-    margin-left: 45%;;
+    margin-left: 45%;
+    background-color: whitesmoke;
 }
 #join h2{
     font-size: 30px;
@@ -343,7 +344,8 @@
 }
 
 #choreography{
-    margin-left: 50%;;
+    margin-left: 50%;
+    background-color:whitesmoke;
 }
 #choreography h2{
     font-size: 30px;
@@ -353,7 +355,8 @@
     color:rgb(100, 99, 99);
 }
 #onstage{
-    margin-left: 55%;;
+    margin-left: 55%;
+    background-color:whitesmoke;
 }
 #onstage h2{
     font-size: 30px;
@@ -663,6 +666,166 @@
 }
 .icon5{
     color: rgb(3, 161, 3);
+}
+
+/* footer page completed */
+
+/* website completed */
+
+/* start to apply media query */
+@media(max-width:430px){
+    #bars{
+        display: block;
+        position: absolute;
+        top: 8%;
+        right: 8%;
+        font-size: 30px;
+    }
+
+    #headpart nav ul{
+        display: none;
+       
+    }
+    #headpart nav ul a{
+        font-size: 15px;
+    }
+    #headpart nav ul a:hover{
+        font-size: 20px;
+    }
+    #check:checked~#headpart nav ul{
+        display: block;
+        /* background-color: rgb(241, 221, 196); */
+        
+        height: 120px;
+        width: 100px;
+        padding-right:60px ;
+    }
+    #bars i{
+        color:black;
+    }
+
+    .icon i{
+        display: none;
+    }
+    .call{
+        display: none;
+    }
+    .call button{
+        display: none;
+    }
+    .call button i{
+        display: none;
+    }
+    .call button p{
+        display: none;
+    }
+
+    /* start to apply media query on first-page */
+     
+    #first-page{
+        width: 100%;
+        height:150vh;
+    }
+    #container{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    #container img{
+        width: 400px;
+    }
+    
+    .heading-cont h1{
+        font-size: 100px;
+        font-family:cursive;
+    }
+    .heading-cont button{
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 8px;
+        background-color: rgb(246, 189, 83);
+    }
+    /* start to apply media query on second page */
+    #second-page{
+        width: 100%;
+        height:150vh;
+    }
+    #dance-image{
+        width:100%;
+        height:150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .dance-image1{
+        width:350px;
+        height: 250px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-right:20px ;
+        
+    }
+    
+    .image1{
+        width:175px;
+        height:200px;
+        
+    }
+    .image1 img{
+        height: 180px;
+    }
+    .content1{
+        width:175px;
+        height:200px;
+    }
+    .content1 img{
+        width: 30px;
+    }
+    .content1 .para1{
+        color: rgb(100, 99, 99);
+    }
+    .content1 .para2{
+        font-size: 20px;
+    }
+    .dance-image2{
+        width:350px;
+        height: 250px;
+        padding-right: 20px;
+        
+    }
+    .image2{
+        width:175px;
+        height:200px;
+        border: 1px solid black;
+        border-radius: 30px;
+        background: linear-gradient(to right,rgb(154, 253, 130),rgb(216, 123, 244));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image2 img{
+        height: 180px;
+    }
+    .content2{
+        width:175px;
+        height:200px;
+    }
+    .content2 img{
+        width: 30px;
+    }
+    
+
+
+    
+    
+
 }
 
 
