@@ -14,7 +14,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(187, 162, 187, 0.274);
+    background-color:rgba(192, 159, 192, 0.274);
     position:relative;
 
 }
@@ -276,13 +276,21 @@
     border: 1px solid black;
     padding-top:50px ;
     background-color:rgba(187, 162, 187, 0.274);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
     
 
 }
 #container3{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    gap:100px;
+    
+    
    
 }
 .cont-image{
@@ -316,33 +324,38 @@
     
 }
 #video-service{
-    width:400px;
-    height: 200px;
-    border:1px solid black;
+    width: 100%;
+   
     display: flex;
     /* flex-direction: column; */
     margin-top: 100px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    gap:100px;
 
-}
-.video{
-    width:500px;
-    height: 300px;
-    border: 5px solid green;
-    border-radius: 20px;
 }
 .video iframe{
-    width:500px;
-    height: 300px;
-    border-radius: 20px;
-
+    width:560px;
+    height: 315px;
+    border-radius: 40%;
 }
 
+
+.services{
+    width: 900px;
+    height: 100vh;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
 .services div{
     width:400px;
     height: 200px;
-    border:1px solid black;
+    border:1px solid rgb(242, 238, 238);
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -350,14 +363,12 @@
     align-items: center;
 }
 
-.Services{
-    display : flex;
-    
-}
 #join{
-    margin-left: 45%;
+    margin-right: 45%;
     background-color: whitesmoke;
+    box-shadow:10px 10px 10px rgb(223, 221, 221);
 }
+
 #join h2{
     font-size: 30px;
 }
@@ -367,9 +378,12 @@
 }
 
 #choreography{
-    margin-left: 50%;
-    background-color:whitesmoke;
+    margin-right: 20%;
+    background-color: whitesmoke;
+    box-shadow:10px 10px 10px rgb(223, 221, 221);
 }
+    
+
 #choreography h2{
     font-size: 30px;
 }
@@ -378,8 +392,10 @@
     color:rgb(100, 99, 99);
 }
 #onstage{
-    margin-left: 55%;
-    background-color:whitesmoke;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    box-shadow:10px 10px 10px rgb(223, 221, 221);
+
 }
 #onstage h2{
     font-size: 30px;
