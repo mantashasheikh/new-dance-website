@@ -712,6 +712,53 @@
 /* website completed */
 
 /* start to apply media query  */
+@media(max-width:430px){
+    #bars{
+        display: block;
+        position: absolute;
+        top: 8%;
+        right: 8%;
+        font-size: 30px;
+    }
+    #check:checked~ #headpart nav ul{
+        display: block;
+        position: absolute;
+        top:20px;
+        left:30%;
+        background-color: pink;
+        line-height: 50px;
+        z-index: 99;
+    }
+    #headpart nav ul{
+        display: none;
+    }
+    
+    #headpart .icon{
+        display: none;
+    }
+    #headpart .call{
+        display: none;
+    }
+    #headpart nav ul a{
+        font-size: 15px;
+    }
+    #headpart nav ul a:hover{
+        font-size: 20px;
+    }
+    #check:checked~#headpart nav ul{
+        display: block;
+        background-color: rgb(241, 221, 196);
+        
+        height: 120px;
+        width: 100px;
+        padding-right:60px ;
+    }
+    #bars i{
+        color:black ;
+    }
+
+
+}
 
 
 
