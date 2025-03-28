@@ -757,9 +757,117 @@
         color:black ;
     }
 
+    /*start to apply media query on first-page */
+
+    #first-page{
+        height:180vh;
+    }
+    #container{
+        height: 100vh;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-cont button:hover{
+        transform: scale(1.1);   
+    }
+    #container img{
+        height:60%;
+    }
+
+    /* start to apply media query on second-page */
+    
+    #second-page{
+        height:100vh;
+    }
+    #dance-image{
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:200px;
+    }
+    
+    /* div one of the second page */
+    .dance-image1{
+        width:300px;
+        height: 180px;
+         animation: mymove1 2s ease-in infinite ;
+    }
+    @keyframes mymove1{
+        0%{left:0px;}
+        25%{left:10px;}
+        50%{left:20px;}
+        75%{left:30px;}
+        100%{left:40px;}
+    }
+    
+    
+    .image1{
+        width:200px;
+        height:150px;
+        
+    }
+    .image1 img{
+        height: 150px;
+    }
+    .content1{
+        width:200px;
+        height:150px;
+        padding-top: 20px;
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+    .content1 img{
+        height: 20px;
+        width: 30px;
+    }
+   .content1 .para2{
+        font-size: 15px;
+    }
+    
+    /* div two of the second page */
+    .dance-image2{
+        width:300px;
+        height: 180px;
+        animation:mymove2 2s ease-in infinite ;
+    }
+    @keyframes mymove2{
+        0%{right:0px;}
+        25%{right:10px;}
+        50%{right:20px;}
+        75%{right:30px;}
+        100%{right:40px;}
+    }
+    
+    .image2{
+        width:200px;
+        height:150px;
+        
+    }
+    .image2 img{
+        height: 150px;  
+    }
+    .content2{
+        width:200px;
+        height:150px;
+        padding-top: 20px;
+        padding-left:10px ;
+        margin-right: 20px;
+    }
+    .content2 img{
+        height: 20px;
+        width: 30px;
+    }
+    
+    .content2 .para2{
+        font-size: 15px;
+    }
+    
+
+
+
+
 
 }
-
-
-
-
