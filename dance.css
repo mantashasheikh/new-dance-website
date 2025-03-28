@@ -986,7 +986,81 @@
         color: rgb(87, 87, 87);
     }
 
+    /* start to apply media query on fifth page */
     
+    #fifth-page{
+        width: 100%;
+        height: 200vh;
+        /* border: 1px solid black; */
+        padding-top:10px ;
+        /* background-color:rgba(187, 162, 187, 0.274); */
+         
+    }
+    #sign-up{
+        width: 100%;
+        height: 200vh;
+        flex-direction: column;
+         display: flex;
+         gap:100px;
+         
+
+          /* align-items: center; 
+         justify-content: center; */
+         padding-top: 5px;  
+      
+    }
+    .sign-up1{
+        width:400px;
+        height: 100vh;
+       
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px; */
+    }
+    .sign-up1 h1{
+        font-size: 80px;
+        /* font-family:cursive;
+        padding: 40px; */
+    }
+    .sign-up1 img{
+        height: 300px;
+    }
+    .sign-up2{
+        width:400px;
+        height:100vh ;
+        
+        /* display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: center; */
+    }
+    .sign-up2-para{
+        height: 200px;
+        width: 350px;
+        /* line-height: 30px; */
+    }
+    .sign-up2-para p{
+        font-size: 20px;
+        /* text-align: justify;
+        color: rgb(87, 85, 85); */
+    }
+    .sign-up2 ul{
+        font-size: 20px;
+    }
+    /* .sign-up2 button{
+        height: 50px;
+        width: 200px;
+        font-size: 22px;
+        border-radius: 15px;
+        background-color: rgb(232, 155, 21);
+    } */
+    /* .sign-up2 button:hover{
+        transform: scale(1.1);
+    
+    }
+     */
+
     
 
 
