@@ -1027,6 +1027,46 @@
     }
     
 
+    /* start to apply media query on sixth-pege */
+
+    #sixth-page{
+        width:100%;
+        height:300vh;
+    }
+    #heading-cont4 h1{
+        font-size: 80px;
+    }
+    #best-instructor{
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px; 
+        padding-top: 50px; 
+    }
+    .Instructor{
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+    }
+    #Instructor2{
+       margin-top: 50px;
+    }
+    #Instructor4{
+        margin-top: 50px;
+    }
+    .Instructor-image{
+        width: 300px;
+        height: 350px;
+    } 
+     .Instructor-image img{
+        width: 300px;
+        height: 250px;
+    }
+    
+    
+
     
 
 
