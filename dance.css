@@ -84,7 +84,7 @@
 #first-page{
     width:100%;
     height:100vh;
-    border:1px solid black;
+    /* border:1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +136,7 @@
 #second-page{
     width:100%;
     height:100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color:rgba(187, 162, 187, 0.274);
 }
 #dance-image{
