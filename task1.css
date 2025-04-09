@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#SignUP{
+    width:100%;
+    height: 200vh;
+    
+}
+#big-div{
+    width:100%;
+    height: 200vh;
+    background: linear-gradient(to right, rgb(116, 189, 234) ,rgb(241, 130, 213));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#SignUp #SignUp-div1 {
+    width:100%;
+    height: 40vh;
+    background: linear-gradient(to right, rgb(90, 187, 248) ,rgb(234, 73, 194));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#SignUp #SignUp-div1 h1{
+    font-size: 100px;
+    color: aliceblue;
+}
+#SignUp-div2{
+    width: 80%;
+    height: 180vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding-top: 40px;
+}
+
+#SignUp-div2 h1{
+    font-size: 40px;
+}
+#form-bigdiv{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+#small-div{
+    gap: 100px;
+}
+#small-div div{
+    display: flex;
+    gap: 100px;
+}
+#gender .gender{
+    display: flex;
+    gap:220px;
+}
+#address .address{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.city{
+    display: flex;
+    gap:100px;
+}
+#dance-option{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#date-time .date-time{
+    display: flex;
+    gap:200px;
+}
+#message textarea{
+    height: 150px;
+    width: 540px;
+}
+#message textarea:hover{
+    border-color: rgb(56, 56, 252);
+    box-shadow: 1px 1px 5px 2px  rgb(75, 75, 249);
+}
+
+ button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgb(11, 11, 65);
+    color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+ button:hover{
+    width: 154px;
+    height: 44px;
+}
+
+/* start to create a media query */
+ 
+@media(max-width:400px){
+    #SignUP{
+        width:100%;
+        height: 220vh;
+    }
+    #big-div{
+        width:100%;
+        height: 220vh;
+        background: linear-gradient(to right, rgb(116, 189, 234) ,rgb(241, 130, 213));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #SignUp #SignUp-div1 {
+        width:100%;
+        height: 20vh;
+        background: linear-gradient(to right, rgb(90, 187, 248) ,rgb(234, 73, 194));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #SignUp #SignUp-div1 h1{
+        font-size: 35px;
+    }
+    #SignUp-div2{
+         width: 80%;
+        height: 200vh;
+        /* border:1px solid black; */
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap:20px;
+        padding-top: 40px; 
+    }
+    p{
+        margin-left: 10px;
+    }
+    
+    #SignUp-div2 h1{
+        font-size: 25px;
+    }
+    #form-bigdiv{
+        width:320px;
+        height:160vh;
+        /* border: 1px solid black;  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        gap:30px;
+        padding-top: 40px;
+       
+    }
+    #small-div{
+        gap: 40px;
+    }
+    #small-div div{
+        display: flex;
+        gap: 40px;
+    }
+    #gender .gender{
+        display: flex;
+        gap:80px;
+    }
+    #address .address{
+        display: flex;
+        flex-direction: column;
+        gap:2px;
+    }
+    .city{
+        display: flex;
+        gap:30px;
+    }
+    #dance-option{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    #date-time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #date-time .date-time{
+        
+        display: flex;
+        gap:25px;
+        padding-left: 15px;
+        padding-right: 15px;        
+    }
+    #message textarea{
+        height: 100px;
+        width: 250px;
+    }
+/* 
+   #button{
+    width:300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-right: 120px;
+   }   */
+    button{
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        margin-right:200px;
+       
+    }
+     button:hover{
+        width: 104px;
+        height: 34px;
+    }
+    .inp{
+        width:100px;
+    }
+    .inp1{
+        width:200px
+    }
+    .inp3{
+        width:70px;
+    }
+    
+
+}

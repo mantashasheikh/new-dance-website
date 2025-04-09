@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp page</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <main>
+        <section id="SignUp">
+            <div id="big-div">
+            <div id="SignUp-div1">
+                <h1>E-Commerce</h1>
+            </div>
+
+            <div id="SignUp-div2">
+                <h1>Dance Registration</h1>
+                <p>Fill the registration form  below keenly to enter the dancing competition</p>
+             
+                <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="8b16d229-b17b-477c-afef-3a73cbae23b7">
+
+                  <div id="form-bigdiv">
+                    <div id="small-div">
+                        <h3>Name</h3>
+                        <br>
+                        <div>
+                        <input type="text" placeholder="First name" class="inp">
+                        <input type="text" placeholder="Last name" class="inp">
+                        </div>
+                    </div>
+                    <div id="small-div">
+                        <h3>Contact</h3>
+                        <br>
+                        <div>
+                        <input type="email" placeholder="E-mail" class="inp">
+                        <input type="number" placeholder="Phone Number" class="inp">
+                        </div>
+                    </div>
+                    <div id="gender">
+                        <h3>Gender</h3>
+                        <br>
+                        <div class="gender">
+                        <div>
+                        <input type="radio" name="r1">
+                        <label for="">Male</label>
+                        </div>
+                         <div>
+                        <input type="radio" name="r1">
+                        <label for="">Female</label>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="address">
+                        <h3>Address</h3>
+                        <br>
+                        <div class="address">
+                        <input type="text" placeholder="Street Address" class="inp1">
+                        <br>
+                        <div class="city">
+                        <input type="text" placeholder="City" class="inp">
+                        <input type="text" placeholder="State/Province" class="inp">
+                        </div>
+                        <br>
+                        <input type="number" placeholder="Postal/Zip code" class="inp1">
+                        </div>
+                    </div>
+                    <div id="dance-option">
+                        <h3>Types of dance</h3>
+                        <br>
+                        <div>
+                        <input type="radio" name="r2">
+                        <label >Bachata</label><br>
+                        </div> 
+                        <div>
+                        <input type="radio" name="r2">
+                        <label >Tango</label><br>
+                        </div> 
+                        <div>
+                        <input type="radio" name="r2">
+                        <label >Hip-Hop</label><br>
+                        </div>
+                        <div>
+                        <input type="radio" name="r2">
+                        <label >Club</label><br>
+                        </div>
+                        <div>
+                        <input type="radio" name="r2">
+                        <label >Salsa</label><br>
+                        </div>
+                        <div>                        
+                        <input type="text" placeholder="Please type another option here " class="inp1">
+                        </div>
+                    </div>
+                    <div id="date-time">
+                        <h3>Start day and time</h3>
+                        <br>
+                        <div class="date-time">
+                        <div>
+                        <input type="date" class="inp3">
+                        </div>
+                        <div>
+                        <input type="time" class="inp3">
+                        <select name="" id="">
+                            <option value="">AM</option>
+                            <option value="">PM</option>
+                        </select>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="message">
+                        <h3>Comment</h3>
+                        <br>
+                        <textarea placeholder="your message"></textarea>
+                    </div>
+                    
+                    <hr>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <!-- <div id="button"> -->
+                        <button type="submit">Submit</button>
+                    <!-- </div> -->
+                  </div>
+
+                </form>
+            </div>
+        </div>
+           
+             
+
+           
+        </section>
+    </main>
+    
+</body>
+</html>
